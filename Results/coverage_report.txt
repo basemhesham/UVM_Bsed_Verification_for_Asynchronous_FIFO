@@ -1,0 +1,109 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /pack1/subscriber/groub1                        100.00%        100    Covered              
+    covered/total bins:                                    28         28                      
+    missing/total bins:                                     0         28                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint groub1::write_reset                    100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::read_reset                     100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::write_increment                100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::read_increment                 100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::full_flag                      100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::empty_flag                     100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::write_data                     100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+    Coverpoint groub1::read_data                      100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+ Covergroup instance \/pack1::subscriber::groub1      100.00%        100    Covered              
+    covered/total bins:                                    28         28                      
+    missing/total bins:                                     0         28                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint write_reset                            100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin low                                            16          1    Covered              
+        bin high                                          141          1    Covered              
+        bin hi_lw                                           1          1    Covered              
+        bin lw_hi                                           2          1    Covered              
+    Coverpoint read_reset                             100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin low                                            16          1    Covered              
+        bin high                                          141          1    Covered              
+        bin hi_lw                                           2          1    Covered              
+        bin lw_hi                                           3          1    Covered              
+    Coverpoint write_increment                        100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin low                                            83          1    Covered              
+        bin high                                           74          1    Covered              
+        bin hi_lw                                           4          1    Covered              
+        bin lw_hi                                           4          1    Covered              
+    Coverpoint read_increment                         100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin low                                            70          1    Covered              
+        bin high                                           87          1    Covered              
+        bin hi_lw                                           3          1    Covered              
+        bin lw_hi                                           4          1    Covered              
+    Coverpoint full_flag                              100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin low                                           147          1    Covered              
+        bin high                                           10          1    Covered              
+        bin hi_lw                                           2          1    Covered              
+        bin lw_hi                                           2          1    Covered              
+    Coverpoint empty_flag                             100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin low                                           124          1    Covered              
+        bin high                                           33          1    Covered              
+        bin hi_lw                                           2          1    Covered              
+        bin lw_hi                                           2          1    Covered              
+    Coverpoint write_data                             100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                       18          1    Covered              
+        bin all_one                                         4          1    Covered              
+        default bin others                                135               Occurred             
+    Coverpoint read_data                              100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                       24          1    Covered              
+        bin all_one                                        12          1    Covered              
+        default bin others                                121               Occurred             
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1

@@ -1,0 +1,66 @@
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/Async_fifo_TEST/fifo_assertions_inst/write_data_to_mem_check
+                     fifo_assertions.sv(42)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/read_data_from_mem_check
+                     fifo_assertions.sv(49)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/write_ptr_increment_check
+                     fifo_assertions.sv(56)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/read_ptr_increment_check
+                     fifo_assertions.sv(63)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/gray_w_ptr_conversion_check
+                     fifo_assertions.sv(71)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/gray_rd_ptr_conversion_check
+                     fifo_assertions.sv(77)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/w2r_sync_check
+                     fifo_assertions.sv(83)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/r2w_sync_check
+                     fifo_assertions.sv(88)             0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/dut_o_full_matches_correct_logic
+                     fifo_assertions.sv(101)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/dut_o_empty_matches_correct_logic
+                     fifo_assertions.sv(111)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/write_pointers_reset_check
+                     fifo_assertions.sv(117)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/read_pointers_reset_check
+                     fifo_assertions.sv(121)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/o_full_on_wreset_check
+                     fifo_assertions.sv(125)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/o_empty_on_rreset_check
+                     fifo_assertions.sv(129)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/no_wptr_increment_when_full
+                     fifo_assertions.sv(135)            0          1
+/top/Async_fifo_TEST/fifo_assertions_inst/no_rptr_increment_when_empty
+                     fifo_assertions.sv(140)            0          1
+/pack1/fifo_reset_sequence/body/immed__16
+                     sequence.sv(16)                    0          1
+/pack1/fifo_write_reset_sequence/body/immed__40
+                     sequence.sv(40)                    0          1
+/pack1/fifo_read_reset_sequence/body/immed__63
+                     sequence.sv(63)                    0          1
+/pack1/fill_fifo_reactive_sequence/body/#anonblk#7764449#85#4#/#ublk#7764449#85/immed__87
+                     sequence.sv(87)                    0          1
+/pack1/empty_fifo_reactive_sequence/body/#anonblk#7764449#111#4#/#ublk#7764449#111/immed__113
+                     sequence.sv(113)                   0          1
+/pack1/attempt_write_to_full_sequence/body/immed__138
+                     sequence.sv(138)                   0          1
+/pack1/attempt_read_from_empty_sequence/body/immed__161
+                     sequence.sv(161)                   0          1
+/pack1/write_then_read_sequence/body/#anonblk#7764449#183#4#/#ublk#7764449#183/immed__185
+                     sequence.sv(185)                   0          1
+/pack1/write_then_read_sequence/body/#anonblk#7764449#192#4#/#ublk#7764449#192/immed__194
+                     sequence.sv(194)                   0          1
+/pack1/concurrent_rw_sequence/body/#anonblk#7764449#218#4#/#ublk#7764449#218/immed__220
+                     sequence.sv(220)                   0          1
+/pack1/original_N_writes_sequence/body/#anonblk#7764449#244#4#/#ublk#7764449#244/immed__246
+                     sequence.sv(246)                   0          1
+/pack1/original_N_reads_sequence/body/#anonblk#7764449#270#4#/#ublk#7764449#270/immed__272
+                     sequence.sv(272)                   0          1
+/pack1/all_one_sequence/body/immed__296
+                     sequence.sv(296)                   0          1
+/pack1/all_zero_sequence/body/immed__320
+                     sequence.sv(320)                   0          1
